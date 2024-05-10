@@ -1,6 +1,7 @@
 const input = document.getElementById('input');
 const btn = document.getElementById('btn');
 const result = document.getElementById('result');
+const reset = document.getElementById('reset');
 
 function reverseCheck(str) {
     const reversedWord = str.split('').reverse().join('');
@@ -15,4 +16,8 @@ btn.addEventListener('click', function (event) {
     result.textContent = isPalindrome
         ? "It's a Palindrome!"
         : 'Not a Palindrome.';
+});
+
+reset.addEventListener('click', function () {
+    window.location.reload();
 });
