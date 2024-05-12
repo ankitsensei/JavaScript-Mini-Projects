@@ -1,7 +1,35 @@
 body {
     box-sizing: border-box;
     margin: 0px 20px;
+    background-color: #111;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-inline: 500px;
 }
 ul li {
     list-style-type: disc;
+}
+
+h1 {
+    color: goldenrod;
+}
+button {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    padding: 10px 20px;
+    background: linear-gradient(to right, rgb(246, 194, 30), rgb(251, 128, 34));
+    border: none;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+button:hover {
+    background: linear-gradient(to right, rgb(251, 128, 34), rgb(253, 123, 24));
+}
+#quotes {
+    color: goldenrod;
 }
