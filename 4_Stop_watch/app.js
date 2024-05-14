@@ -11,14 +11,14 @@ function padStart(value) {
 }
 
 function setTime() {
-    const minutes = Math.floor(secondsElapsed / 60);
-    // const hours = Math.floor(minutes / 60);
-    let hours = 0;
+    const hours = Math.floor(secondsElapsed / 3600); // Calculate hours directly from total seconds
+    const minutes = Math.floor((secondsElapsed % 3600) / 60); // Calculate remaining minutes
     const seconds = secondsElapsed % 60;
     time.innerHTML = `${padStart(hours)}:${padStart(minutes)}:${padStart(
         seconds
     )}`;
 }
+
 function timer() {
     secondsElapsed++;
     setTime();
