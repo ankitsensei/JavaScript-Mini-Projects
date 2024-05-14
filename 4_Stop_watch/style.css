@@ -30,13 +30,33 @@ button {
     border: 0px;
     border-radius: 7px;
 }
+/* Start button ------------------ */
 #startBtn {
     background-color: #535c91;
 }
-
+#startBtn:hover {
+    background-color: #68b770;
+}
+#startBtn:active {
+    background-color: #098215;
+}
+/* Stop button ------------------ */
 #stopBtn {
     background-color: #9290c3;
 }
+#stopBtn:hover {
+    background-color: #ff204e;
+}
+#stopBtn:active {
+    background-color: #a0153e;
+}
+/* Reset button ------------------ */
 #resetBtn {
     background-color: #535c91;
+}
+#resetBtn:hover {
+    background-color: white;
+}
+#resetBtn:active {
+    background-color: rgb(134, 134, 134);
 }
