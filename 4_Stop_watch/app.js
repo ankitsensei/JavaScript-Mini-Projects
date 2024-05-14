@@ -1,6 +1,3 @@
-// const start = document.querySelector('Start');
-// const stop = document.querySelector('Stop');
-// const reset = document.querySelector('Reset');
 const time = document.getElementById('timer');
 
 let secondsElapsed = 0;
