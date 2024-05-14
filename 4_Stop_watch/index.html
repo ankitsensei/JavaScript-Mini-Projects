@@ -9,11 +9,15 @@
 </head>
 
 <body>
-    <h1>Stop Watch</h1>
-    <h1 id="timer">00:00:00</h1>
-    <button onclick="startTimer()">Start</button>
-    <button onclick="stopTimer()">Stop</button>
-    <button onclick="resetTimer()">Reset</button>
+    <div id="contents">
+        <h1 id="heading">Stop Watch</h1>
+        <h1 id="timer">00:00:00</h1>
+        <div id="buttons">
+            <button id="startBtn" onclick="startTimer()">Start</button>
+            <button id="stopBtn" onclick="stopTimer()">Stop</button>
+            <button id="resetBtn" onclick="resetTimer()">Reset</button>
+        </div>
+    </div>
     <script src="app.js"></script>
 </body>
 

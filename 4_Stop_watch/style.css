@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    background-color: #070f2b;
+    color: aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+        'Lucida Sans Unicode', Geneva, Verdana, sans-serifs;
+}
+#contents {
+    display: flex;
+    flex-direction: column;
+    margin-block-start: 200px;
+    padding: 20px;
+    border: 2px solid #9290c3;
+    border-radius: 13px;
+    align-items: center;
+}
+
+#heading {
+    color: #535c91;
+}
+#timer {
+    color: #9290c3;
+}
+
+button {
+    padding: 7px 15px;
+    border: 0px;
+    border-radius: 7px;
+}
+#startBtn {
+    background-color: #535c91;
+}
+
+#stopBtn {
+    background-color: #9290c3;
+}
+#resetBtn {
+    background-color: #535c91;
+}
