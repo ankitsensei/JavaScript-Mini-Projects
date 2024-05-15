@@ -1,8 +1,6 @@
-let items = ['Hello World', '123'];
+let items = [];
 
 const itemsDiv = document.getElementById('items');
-
-function loadItems() {}
 
 function renderItems() {
     itemsDiv.innerHTML = null;
@@ -26,8 +24,14 @@ function renderItems() {
         itemsDiv.appendChild(container);
     }
 }
+
+function loadItems() {}
+
 function saveItem() {}
 
 function addItem() {}
 
-function removeItem() {}
+function removeItem(idx) {
+    items.splice(idx, 1);
+    renderItems();
+}
