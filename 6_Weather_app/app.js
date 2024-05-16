@@ -4,7 +4,7 @@ const apiUrl =
 const searchBox = document.querySelector('#searchBox');
 const searchBtn = document.querySelector('#searchBtn');
 const weatherIcon = document.querySelector('#weather-icon');
-const cardBg = document.querySelector('#cardBg');
+const card = document.querySelector('#card');
 
 async function checkWeather(city) {
     const response = await fetch(apiUrl + city + `&appid=${apiKey}`);
@@ -21,23 +21,18 @@ async function checkWeather(city) {
         document.querySelector('#humidity').innerHTML =
             data.main.humidity + ' %';
         document.querySelector('#wind').innerHTML = data.wind.speed + ' km/hr';
-
         if (data.weather[0].main == 'Clouds') {
             weatherIcon.src = 'images/clouds.png';
-            cardBg.src = 'gifs/cloud.gif';
-            // card.src = 'gifs/cloud.gif';
+            card.style.backgroundImage = `url('gifs/cloud.gif')`;
         } else if (data.weather[0].main == 'Clear') {
             weatherIcon.src = 'images/clear.png';
-            cardBg.src = 'gifs/clear.gif';
-            // card.src = 'gifs/clear.gif';
-        } else if (data.weather[0].main == 'Drizzle') {
-            weatherIcon.src = 'images/drizzle.png';
-            cardBg.src = 'gifs/drizzle.gif';
-            // card.src = 'gifs/drizzle.gif';
+            card.style.backgroundImage = `url('gifs/clear.gif')`;
+        } else if (data.weather[0].main == 'Rain') {
+            weatherIcon.src = 'images/rain.png';
+            card.style.backgroundImage = `url('gifs/rain.gif')`;
         } else if (data.weather[0].main == 'Mist') {
             weatherIcon.src = 'images/mist.png';
-            cardBg.src = 'gifs/mist.gif';
-            // card.src = 'gifs/mist.gif';
+            card.style.backgroundImage = `url('gifs/mist.gif'})`;
         }
         document.querySelector('#weather').style.display = 'block';
         document.querySelector('#error').style.display = 'none';
