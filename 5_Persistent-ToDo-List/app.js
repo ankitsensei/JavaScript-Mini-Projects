@@ -50,16 +50,7 @@ function addItem() {
     saveItems();
 }
 
-function removeItem(idx) {
-    items.splice(idx, 1);
-    renderItems();
-    saveItems();
-}
-
 document.addEventListener('DOMContentLoaded', loadItems);
-
-// Add an event listener to the input or button for adding items
-document.getElementById('addItemBtn').addEventListener('click', addItem);
 
 // Add an event listener for the "Enter" key on the input field
 input.addEventListener('keydown', (event) => {
@@ -67,3 +58,9 @@ input.addEventListener('keydown', (event) => {
         addItem();
     }
 });
+
+function removeItem(idx) {
+    items.splice(idx, 1);
+    renderItems();
+    saveItems();
+}
