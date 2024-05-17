@@ -14,6 +14,7 @@ async function checkWeather(city) {
         document.querySelector('#weather').style.display = 'none';
     } else {
         var data = await response.json();
+        console.log(data.weather);
 
         document.querySelector('#city').innerHTML = data.name;
         document.querySelector('#temp').innerHTML =
@@ -30,9 +31,15 @@ async function checkWeather(city) {
         } else if (data.weather[0].main == 'Rain') {
             weatherIcon.src = 'images/rain.png';
             card.style.backgroundImage = `url('gifs/rain.gif')`;
+        } else if (data.weather[0].main == 'Haze') {
+            weatherIcon.src = 'images/mist.png';
+            card.style.backgroundImage = `url('gifs/mist.gif')`;
         } else if (data.weather[0].main == 'Mist') {
             weatherIcon.src = 'images/mist.png';
-            card.style.backgroundImage = `url('gifs/mist.gif'})`;
+            card.style.backgroundImage = `url('gifs/mist.gif')`;
+        } else if (data.weather[0].main == 'Smoke') {
+            weatherIcon.src = 'images/mist.png';
+            card.style.backgroundImage = `url('gifs/mist.gif')`;
         }
         document.querySelector('#weather').style.display = 'block';
         document.querySelector('#error').style.display = 'none';
