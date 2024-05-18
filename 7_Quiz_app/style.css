@@ -36,6 +36,14 @@ body {
     border: 2px solid #555;
     border-radius: 7px;
 }
+.btn:hover:not([disabled]) {
+    background-color: #111;
+    color: white;
+    transition: 0.3s;
+}
+.btn:disabled {
+    cursor: no-drop;
+}
 #nextBtn {
     padding: 10px 40px;
     border: 2px solid #555;
@@ -43,4 +51,10 @@ body {
     background-color: #35155d;
     color: white;
     display: none;
+}
+.correct {
+    background-color: #9aeabc;
+}
+.incorrect {
+    background-color: #ff9393;
 }
