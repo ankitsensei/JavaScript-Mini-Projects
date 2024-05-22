@@ -1,4 +1,5 @@
 const passwordBox = document.querySelector('#passwordBox');
+const copyPsk = document.querySelector('#copyIcon');
 const generateBtn = document.querySelector('#generateBtn');
 const length = 12;
 
@@ -24,4 +25,13 @@ function createPassword() {
 generateBtn.addEventListener('click', (e) => {
     e.preventDefault();
     createPassword();
+});
+
+function copyPassword() {
+    passwordBox.select();
+    document.execCommand('copy');
+}
+copyPsk.addEventListener('click', (e) => {
+    e.preventDefault();
+    copyPassword();
 });
