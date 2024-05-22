@@ -27,6 +27,7 @@ h2 {
     border-radius: 7px;
     font-size: 1rem;
     border: solid white;
+    outline: none;
 }
 .main button {
     margin: 20px 0 10px 0;
