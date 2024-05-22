@@ -1,8 +1,44 @@
-@import url(https://fonts.googleapis.com/css?family=Danfo:regular);
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic);
 
 body {
     box-sizing: border-box;
-    margin: 0;
+    /* margin: 270px 200px; */
+    margin: 270px 100px;
     padding: 0;
-    font-family: 'Danfo';
+    font-family: 'Roboto';
+    background-color: #00224d;
+    color: white;
+}
+
+#head2 {
+    color: #ff204e;
+    text-decoration: underline;
+}
+p {
+    width: 450px;
+    padding: 15px;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 7px;
+}
+#copyIcon {
+    background-color: white;
+}
+img {
+    background-color: #ff204e;
+}
+#generateBtn {
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ff204e;
+    border: solid #ff204e;
+}
+p button {
+    background-color: white;
+    border: solid white;
 }
