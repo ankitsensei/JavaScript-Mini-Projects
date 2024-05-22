@@ -2,10 +2,20 @@ body {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #240750;
+    color: white;
+}
+h2 {
+    color: #57a6a1;
+    margin: 0px;
 }
 .card {
-    /* margin:10% 700px; */
+    margin: 200px 200px;
+    padding: 30px;
     width: 400px;
+    background-color: #344c64;
+    border-radius: 10px;
 }
 .main {
     display: flex;
@@ -16,9 +26,14 @@ body {
     padding: 20px 30px;
     border-radius: 7px;
     font-size: 1rem;
+    border: solid white;
 }
 .main button {
+    margin: 20px 0 10px 0;
     padding: 10px 0px;
     width: 200px;
     border-radius: 7px;
+    background-color: #57a6a1;
+    color: #344c64;
+    border: solid #57a6a1;
 }
