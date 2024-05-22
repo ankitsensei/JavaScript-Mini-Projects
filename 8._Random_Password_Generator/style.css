@@ -10,12 +10,17 @@ body {
     color: white;
 }
 
+#head1 {
+    margin: 0px;
+}
 #head2 {
+    margin: 0px;
     color: #ff204e;
     text-decoration: underline;
 }
-p {
+#container {
     width: 450px;
+    margin: 20px 0;
     padding: 15px;
     background-color: white;
     color: black;
@@ -23,6 +28,14 @@ p {
     justify-content: space-between;
     align-items: center;
     border-radius: 7px;
+}
+input {
+    border: solid white;
+    font-size: 1.2rem;
+}
+#container button {
+    background: white;
+    border: solid white;
 }
 #copyIcon {
     background-color: white;
@@ -37,6 +50,7 @@ img {
     align-items: center;
     background-color: #ff204e;
     border: solid #ff204e;
+    border-radius: 7px;
 }
 p button {
     background-color: white;
