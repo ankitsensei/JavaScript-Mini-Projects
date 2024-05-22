@@ -1,0 +1,24 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.card {
+    /* margin:10% 700px; */
+    width: 400px;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+}
+.main input {
+    margin: 20px 0;
+    padding: 20px 30px;
+    border-radius: 7px;
+    font-size: 1rem;
+}
+.main button {
+    padding: 10px 0px;
+    width: 200px;
+    border-radius: 7px;
+}
