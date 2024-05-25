@@ -11,11 +11,13 @@
 <body>
     <h1>Toast Notification or Snack Bar</h1>
     <div class="buttons">
-        <button id="success">Success</button>
-        <button id="error">Error</button>
-        <button id="invalid">Invalid</button>
+        <button id="success" onclick="showToast(successMsg)">Success</button>
+        <button id="error" onclick="showToast(errorMsg)">Error</button>
+        <button id="invalid" onclick="showToast(invalidMsg)">Invalid</button>
     </div>
+    <div id="toastBox"></div>
     <script src="app.js"></script>
+    <script src="https://kit.fontawesome.com/55359d424c.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
