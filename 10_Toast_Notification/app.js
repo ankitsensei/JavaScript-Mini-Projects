@@ -21,5 +21,5 @@ function showToast(msg) {
     }
     setTimeout(() => {
         toast.remove();
-    }, 3000);
+    }, 5000);
 }
