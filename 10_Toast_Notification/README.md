@@ -6,9 +6,9 @@ The webpage has a sleek dark theme with white text, making it visually appealing
 
 ## ✨Three Notification Buttons:
 
-    **Success Button**: Click this button to display a green success notification indicating a successful action.
-    **Error Button**: Click this button to display a red error notification indicating something went wrong.
-    **Invalid Button**: Click this button to display an orange invalid notification indicating an incorrect input or action.
+**Success Button**: Click this button to display a green success notification indicating a successful action.
+**Error Button**: Click this button to display a red error notification indicating something went wrong.
+**Invalid Button**: Click this button to display an orange invalid notification indicating an incorrect input or action.
 
 ## ✨Notification Display:
 
