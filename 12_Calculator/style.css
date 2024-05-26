@@ -41,7 +41,11 @@ form .display input {
     flex: 1;
     font-size: 45px;
     box-shadow: none;
+    color: orange;
 }
 form input.equal {
     width: 145px;
+}
+.operator {
+    color: orange;
 }
