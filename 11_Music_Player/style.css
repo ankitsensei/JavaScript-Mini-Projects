@@ -17,7 +17,7 @@
     background-image: url(imgs/ace.jpg);
     background-repeat: none;
     background-position: center;
-    background-size: contain;
+    background-size: cover;
     width: 400px;
     padding: 25px 35px;
     text-align: center;
