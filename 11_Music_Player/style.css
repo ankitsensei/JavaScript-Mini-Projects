@@ -14,10 +14,14 @@
     flex-wrap: wrap;
 }
 .music-player {
-    background: #ffb9b9;
+    background-image: url(imgs/ace.jpg);
+    background-repeat: none;
+    background-position: center;
+    background-size: contain;
     width: 400px;
     padding: 25px 35px;
     text-align: center;
+    border-radius: 20px;
 }
 nav {
     display: flex;
@@ -43,12 +47,12 @@ nav .circle {
 .music-player h1 {
     font-size: 20px;
     font-weight: 400;
-    color: #333;
+    color: #ffffff;
     margin-top: 20px;
 }
 .music-player p {
     font-size: 14px;
-    color: #333;
+    color: #fafafa;
 }
 #progress {
     -webkit-appearance: none;
