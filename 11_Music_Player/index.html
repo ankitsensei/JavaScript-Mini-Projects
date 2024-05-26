@@ -21,12 +21,12 @@
             <img src="imgs/lufi2.jpg" class="song-img">
             <h1>Gear 5 Luffy Phonk One Piece</h1>
             <p>Unmei dai</p>
-            <audio controls src="musics/Gear 5 Luffy Phonk One Piece.mp3" type="audio/mpeg"></audio>
+            <audio controls id="songs" src="musics/Gear 5 Luffy Phonk One Piece.mp3" type="audio/mpeg"></audio>
             <input type="range" value="0" id="progress">
 
             <div class="controls">
                 <div><i class="fa-solid fa-backward"></i></div>
-                <div><i class="fa-solid fa-play"></i></div>
+                <div onclick="playPause()"><i class="fa-solid fa-play" id="ctrlIcon"></i></div>
                 <div><i class="fa-solid fa-forward"></i></div>
 
             </div>
