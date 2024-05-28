@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
-    background: linear-gradient(135deg, #4203a9, #90bafc);
+    background: linear-gradient(135deg, #ff204e, #c25b7a);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -21,7 +21,7 @@ body {
     margin: 0;
     font-weight: 800;
     font-size: 3rem;
-    color: rgb(255, 255, 145);
+    color: yellow;
 }
 .content {
     background: rgba(255, 255, 255, 0.5);
@@ -41,6 +41,10 @@ body {
     border-radius: 5px;
     outline: 0;
     font-size: 20px;
+    background-color: #ff204e;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
 }
 .content input::-webkit-calendar-picker-indicator {
     cursor: pointer;
@@ -57,8 +61,11 @@ body {
     height: 40px;
     border: 0px;
     border-radius: 5px;
-    background-color: rgb(255, 255, 145);
+    background-color: #ff204e;
+    color: white;
 }
 p {
     color: white;
+    font-size: 1.3rem;
+    display: none;
 }
