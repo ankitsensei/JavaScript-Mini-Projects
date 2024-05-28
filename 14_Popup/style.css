@@ -30,8 +30,12 @@ button {
     box-sizing: border-box;
     color: white;
     width: 400px;
-    height: 400px;
+    height: 300px;
     margin: 0;
     padding: 0;
     display: none;
+}
+.popup img {
+    width: 70px;
+    height: auto;
 }
