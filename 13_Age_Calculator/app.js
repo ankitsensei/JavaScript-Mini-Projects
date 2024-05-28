@@ -32,7 +32,7 @@ function calculateAge() {
         month3 = 11;
         year3--;
     }
-    output.innerHTML = `You are ${year3}, ${month3} months and ${day3}`;
+    output.innerHTML = `You are ${year3} years, ${month3} months and ${day3} days`;
 }
 function getDaysInMonth(year, month) {
     return new Date(year, month, 0).getDate();
