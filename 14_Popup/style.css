@@ -1,5 +1,6 @@
 body {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -8,6 +9,7 @@ body {
     padding: 0;
     background-color: #0a2647;
     color: #2c74b3;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 button {
