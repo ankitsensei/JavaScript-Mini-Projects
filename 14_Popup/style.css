@@ -1,7 +1,20 @@
-* {
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: #222;
-    color: #fff;
+    background-color: #0a2647;
+    color: #2c74b3;
+}
+
+button {
+    padding: 20px 50px;
+    background-color: #144272;
+    color: #2c74b3;
+    font-size: 1.2rem;
+    border: 0px solid;
+    border-radius: 10px;
 }
