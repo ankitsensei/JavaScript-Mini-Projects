@@ -37,3 +37,6 @@ function calculateAge() {
 function getDaysInMonth(year, month) {
     return new Date(year, month, 0).getDate();
 }
+document.getElementById('date').addEventListener('click', function () {
+    this.showPicker();
+});
