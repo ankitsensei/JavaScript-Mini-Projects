@@ -15,6 +15,7 @@ nav ul {
     display: flex;
     list-style-type: none;
     justify-content: space-between;
+    align-items: center;
 }
 #mainLogo {
     width: 50px;
@@ -61,4 +62,11 @@ nav ul li {
     width: 500px;
     border-radius: 20px;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+}
+.fa-moon {
+    font-size: 1.5rem;
+}
+.fa-sun {
+    display: none !important;
+    font-size: 1.5rem;
 }
