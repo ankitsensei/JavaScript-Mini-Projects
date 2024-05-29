@@ -30,3 +30,14 @@ nav ul li {
     align-items: center;
     border-radius: 7px;
 }
+.content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#name {
+    color: red;
+}
+#manPic {
+    width: 400px;
+}
