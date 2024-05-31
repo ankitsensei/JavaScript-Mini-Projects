@@ -70,3 +70,13 @@ nav ul li {
 .fa-sun {
     font-size: 1.5rem;
 }
+.dark-mode {
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+}
+.light-mode {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    transition: 0.5s;
+}
