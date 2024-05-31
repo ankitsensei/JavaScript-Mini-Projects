@@ -1,12 +1,16 @@
-const darkMode = document.querySelector('.fa-moon');
-const lightMode = document.querySelector('fa-sun');
-darkMode.addEventListener('click', (e) => {
-    e.preventDefault();
-    darkMode.classList.remove('fa-moon');
-    darkMode.classList.add('fa-sun');
-});
-lightMode.addEventListener('click', (e) => {
-    e.preventDefault();
-    lightMode.classList.remove('fa-sun');
-    lightMode.classList.add('fa-moon');
+document.addEventListener('DOMContentLoaded', function () {
+    const toggleIcon = document.getElementById('toggleIcon');
+    const body = document.body;
+
+    toggleIcon.addEventListener('click', function () {
+        if (toggleIcon.classList.contains('fa-moon')) {
+            toggleIcon.classList.remove('fa-moon');
+            toggleIcon.classList.add('fa-sun');
+            body.classList.add('dark-mode');
+        } else {
+            toggleIcon.classList.remove('fa-sun');
+            toggleIcon.classList.add('fa-moon');
+            body.classList.remove('dark-mode');
+        }
+    });
 });
