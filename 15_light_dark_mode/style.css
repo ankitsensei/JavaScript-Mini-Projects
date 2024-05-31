@@ -67,6 +67,6 @@ nav ul li {
     font-size: 1.5rem;
 }
 .fa-sun {
-    display: none !important;
+    /* display: none !important; */
     font-size: 1.5rem;
 }
