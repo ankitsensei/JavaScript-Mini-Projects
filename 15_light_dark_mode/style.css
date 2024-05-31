@@ -65,8 +65,8 @@ nav ul li {
 }
 .fa-moon {
     font-size: 1.5rem;
+    padding-inline: 3px;
 }
 .fa-sun {
-    /* display: none !important; */
     font-size: 1.5rem;
 }
