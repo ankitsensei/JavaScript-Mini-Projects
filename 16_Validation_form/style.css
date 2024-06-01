@@ -24,7 +24,8 @@ body {
 .input-group {
     margin: 20px 0px;
 }
-.input-group input {
+.input-group input,
+textarea {
     padding: 5px;
     border-width: 0px 0px 1px 0px;
     outline: none;
