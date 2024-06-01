@@ -24,6 +24,9 @@ body {
 .input-group {
     margin: 20px 0px;
 }
+.input-group label {
+    text-align: left;
+}
 .input-group input,
 textarea {
     padding: 5px;
