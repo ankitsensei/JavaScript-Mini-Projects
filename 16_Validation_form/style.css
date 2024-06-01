@@ -30,3 +30,12 @@ textarea {
     border-width: 0px 0px 1px 0px;
     outline: none;
 }
+button {
+    margin: 20px;
+    padding: 10px 30px;
+    font-size: 0.9rem;
+    border-radius: 7px;
+    border: 0px;
+    background: #000;
+    color: white;
+}
