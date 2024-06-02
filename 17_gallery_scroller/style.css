@@ -28,3 +28,12 @@ body {
     border: 0px;
     border-radius: 20px;
 }
+i {
+    color: red;
+    font-size: 2rem;
+}
+.gallery-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
