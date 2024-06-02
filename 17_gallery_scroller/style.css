@@ -27,6 +27,7 @@ body {
     height: 500px;
     border: 0px;
     border-radius: 20px;
+    object-fit: cover;
 }
 i {
     color: red;
