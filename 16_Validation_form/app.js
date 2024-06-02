@@ -41,3 +41,20 @@ function validatePhone() {
     phoneError.style.color = 'green';
     return true;
 }
+
+function validateEmail() {
+    let email = document.getElementById('contact-email').value;
+    if (email.length == 0) {
+        emailError.innerHTML = 'Email is required';
+        emailError.style.color = 'red';
+        return false;
+    }
+    if (!email.match(/^[A-Za-z\._\-[0-9]*[@][A-Za-z]*[\.][a-z]{2,4}$/)) {
+        emailError.innerHTML = 'Email Invalid';
+        emailError.style.color = 'red';
+        return false;
+    }
+    emailError.innerHTML = '<i class="fa-solid fa-circle-check"></i>';
+    emailError.style.color = 'green';
+    return true;
+}
