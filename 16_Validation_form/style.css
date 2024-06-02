@@ -21,6 +21,15 @@ body {
     align-items: center;
     background: white;
 }
+.fa-paper-plane {
+    position: absolute;
+    left: 50%;
+    margin-top: -65px;
+    padding: 10px;
+    font-size: 2rem;
+    border: 2px solid black;
+    border-radius: 50%;
+}
 .input-group {
     margin: 20px 0px;
 }
