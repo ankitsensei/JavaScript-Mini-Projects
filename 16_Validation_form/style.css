@@ -21,9 +21,14 @@ body {
     align-items: center;
     background: white;
 }
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .fa-paper-plane {
     position: absolute;
-    left: 50%;
     margin-top: -65px;
     padding: 10px;
     font-size: 2rem;
