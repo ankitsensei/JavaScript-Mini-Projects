@@ -58,3 +58,18 @@ function validateEmail() {
     emailError.style.color = 'green';
     return true;
 }
+
+function validateMessage() {
+    let message = document.getElementById('contact-message').value;
+    let lengthRequired = 30;
+    let lengthLeft = lengthRequired - message.length;
+
+    if (lengthLeft > 0) {
+        messageError.innerHTML = lengthLeft + ' more characters required';
+        messageError.style.color = 'red';
+        return false;
+    }
+    messageError.innerHTML = '<i class="fa-solid fa-circle-check"></i>';
+    messageError.style.color = 'green';
+    return true;
+}
