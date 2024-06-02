@@ -73,3 +73,19 @@ function validateMessage() {
     messageError.style.color = 'green';
     return true;
 }
+
+function validateForm() {
+    if (
+        !validateName() ||
+        !validatePhone() ||
+        !validateEmail() ||
+        !validateMessage()
+    ) {
+        submitError.style.display = 'block';
+        submitError.innerHTML = 'Please fix the error';
+        setTimeout(function () {
+            submitError.style.display = 'none';
+        }, 3000);
+        return false;
+    }
+}
