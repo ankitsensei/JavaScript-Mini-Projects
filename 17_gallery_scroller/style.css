@@ -31,9 +31,13 @@ body {
     border-radius: 20px;
     object-fit: cover;
 }
-i {
+#backBtn,
+#nextBtn {
+    margin: 20px;
+    padding: 0px;
     color: red;
     font-size: 2rem;
+    cursor: pointer;
 }
 .gallery-wrap {
     height: 100vh;
@@ -41,3 +45,4 @@ i {
     justify-content: center;
     align-items: center;
 }
+
