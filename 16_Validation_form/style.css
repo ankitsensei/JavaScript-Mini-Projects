@@ -56,3 +56,14 @@ button {
     background: #000;
     color: white;
 }
+
+.input-group span {
+    bottom: 12px;
+    right: 17px;
+
+    font-size: 14px;
+    color: red;
+}
+.submit-error {
+    color: red;
+}
