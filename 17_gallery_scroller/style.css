@@ -10,6 +10,7 @@ body {
 }
 .gallery {
     width: 900px;
+    gap: 60px;
     display: flex;
     overflow-x: scroll;
 }
