@@ -13,7 +13,9 @@ body {
     display: flex;
     overflow-x: scroll;
 }
-
+.gallery ::-webkit-scrollbar {
+    display: none;
+}
 .gallery div {
     width: 100%;
     display: grid;
