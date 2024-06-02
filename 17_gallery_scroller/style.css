@@ -11,11 +11,11 @@ body {
 .gallery {
     width: 900px;
     display: flex;
-    /* overflow-x: scroll; */
+    overflow-x: scroll;
 }
 
 .gallery div {
-    width: 100px;
+    width: 100%;
     display: grid;
     grid-template-columns: auto auto auto;
     grid-gap: 20px;
