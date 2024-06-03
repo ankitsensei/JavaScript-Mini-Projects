@@ -36,22 +36,25 @@ p {
 .email {
     margin: 20px 0;
     padding: 0;
+    display: flex;
 }
 .email input {
     margin: 0;
-    padding: 8px 10px;
+    padding: 15px 100px;
     border-radius: 20px 0px 0px 20px;
     border: 0px;
     text-align: start;
+    outline: none;
 }
 .email button {
     margin: 0;
-    padding: 8px 10px;
+    padding: 15px 10px;
     background-color: white;
     border-radius: 0px 20px 20px 0px;
     border: 0px;
 }
 .email button i {
     margin: 0;
-    padding: 0;
+    padding: 0px 10px;
+    font-size: 1.3rem;
 }
