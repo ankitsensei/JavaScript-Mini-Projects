@@ -33,6 +33,11 @@ h1 {
 p {
     font-size: 1rem;
 }
+#thanks {
+    margin-left: 40vh;
+    margin-top: 1vh;
+    color: rgba(255, 255, 255, 0.951);
+}
 .email {
     margin: 20px 0;
     padding: 0;
