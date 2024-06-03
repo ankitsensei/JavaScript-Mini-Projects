@@ -39,7 +39,19 @@ p {
 }
 .email input {
     margin: 0;
-    padding: 8px 100px;
+    padding: 8px 10px;
     border-radius: 20px 0px 0px 20px;
     border: 0px;
+    text-align: start;
+}
+.email button {
+    margin: 0;
+    padding: 8px 10px;
+    background-color: white;
+    border-radius: 0px 20px 20px 0px;
+    border: 0px;
+}
+.email button i {
+    margin: 0;
+    padding: 0;
 }
