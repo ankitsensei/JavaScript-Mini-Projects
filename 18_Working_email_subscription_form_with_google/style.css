@@ -7,3 +7,16 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    height: 400px;
+    width: 500px;
+    margin-left: 20vh;
+    margin-top: 30vh;
+    padding: 0px 30px;
+    background-color: rgba(255, 235, 205, 0.599);
+    border-radius: 20px;
+}
